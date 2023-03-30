@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Portfolio</title>
+
+    <style>
+      .profile{
+        width: 100%;
+        background-image: url("images.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover ;
+      }
+
+      #sc-btn{
+        margin-top: 400px;
+        margin-left: 600px;
+        border-radius: 50px;
+        padding: 10px;
+        border-color: tomato;
+      }
+
+      #sc-btn:hover{
+        color: tomato;
+        font-weight:normal;
+      }
+
+      .projects{
+        background-color: gray;
+        border-radius: 0px;
+        width: auto;
+        padding: 50px;
+      }
+
+      .projects h2{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: gray;
+        font-size: 60px;
+      }
+
+      .projects ul{
+        margin-left: 300px;
+        padding-top: 20px;
+        font-size: 20px;
+      }
+
+      .projects ul li:hover{
+        color: white;
+      }
+
+      .projects h2:hover{
+        color: white;
+      }
+
+      .acheivment{
+        background-color: black;
+        border-radius: 0px;
+        width: auto;
+        padding: 50px;
+        color: white;
+      }
+
+      .acheivment h2{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: black;
+        font-size: 60px;
+      }
+
+      .acheivment h2:hover{
+        color: gray;
+      }
+
+      #ul-1{
+        margin-left: 200px;
+        padding-top: 20px;
+        font-size: 20px;
+      }
+
+      .acheivment ul li:hover{
+        color: gray;
+      }
+
+      .contacts{
+        background-color: gray;
+        border-radius: 0px;
+        width: auto;
+        padding: 50px;
+      }
+      
+      .contacts h2{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: gray;
+        font-size: 60px;
+      }
+
+      .footer{
+        background-color: white;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+        width: fit-content;
+        margin-left: 180px;
+      }
+
+      .footer a{
+        padding: 20px;
+        text-decoration: none;
+      }
+
+      .footer a:hover{
+        text-decoration: underline;
+        color: tomato;
+      }
+
+      #name{
+        color: tomato;
+      }
+      #name:hover{
+        color: black;
+        font-weight: bold;
+      }
+
+      .navbar-nav{
+        margin-left: 600px;
+      }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><b>Potfolio</b></a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <a class="nav-link" href="#4"><span id="name">PARAMESWARAN</span><span style="font-size: 20px; color: black;"> E </span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#2">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#3">Acheivements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="profile" id="1">
+        <a class="nav-link" href="#2"><button id="sc-btn">Scroll<span style="padding: 3px;">Down</span></button></a>
+      </div>
+
+      <div class="projects" id="2">
+          <h2>PROJECTS</h2>
+          <ul>
+            <li>Portfolio</li>
+            <li>NoticeBoard UI/UX design App</li>
+            <li>OTT web design</li>
+            <li>E-Learning Website</li>
+            <li>Calculator</li>
+          </ul>
+      </div>
+
+      <div class="acheivment" id="3">
+        <h2>ACHEIVEMENTS</h2>
+        <ul id="ul-1">
+          <li>SRI Activity</li>
+          <ul>
+            <li>Join as a hands of helping minds through giving some study materials and foods to the orphange peoples and childrens<br>
+          Place: Universal Peace Foundation, Coimbatore</li>
+          </ul>
+          <li>Hackathons</li>
+          <ul>
+            <li>Participated in some National Level Symposiums</li>
+            <li>Participated in Ideathons by giving some innovative ideas as a projects </li>
+          </ul>
+          <li>Seminars</li>
+          <ul>
+            <li>Organized two seminars which is taken by my Department</li>
+            <li>Seminars based on top companies and VQAR are taken in last semester. </li>
+          </ul>
+          <li>Academics</li>
+          <ul>
+            <li>Got Above 9 percentage CGPA in Last two semesters</li>
+            <li>I had Certificates in Top developing technologies</li>
+          </ul>
+        </ul>
+      </div>
+
+      <div class="contacts" id="4">
+        <h2>Contact Me</h2>
+        <div class="footer">
+          <a href="linkedin.com/in/parameswaran-eswaran">Linked In</a>
+          <a >Whatsapp : 9952213571</a>
+          <a href="https://github.com/Parames8803">GitHub</a>
+          <a href="https://www.instagram.com/paramesh_ealp/">Instagram</a>
+          <a >Gmail : parameswaran8803@gmail.com</a>
+        </div>
+      </div>
+</body>
+</html>
